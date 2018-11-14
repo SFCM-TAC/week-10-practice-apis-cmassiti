@@ -1,3 +1,4 @@
+
 var req = new XMLHttpRequest();
 req.open('GET', 'https://api.punkapi.com/v2/beers?brewed_before=11-2012&abv_gt=6', true);
 req.send();
